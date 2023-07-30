@@ -1,0 +1,29 @@
+main {
+  /* min-height: 30vw; */
+  margin: 1vw;
+  padding: 1vw;
+  border: 0.14vw solid black;
+  border-radius: 0.7vw;
+  box-shadow: 0 0 2vw rgba(0, 0, 0, 0.2);
+  font-size: 1.1vw;
+  font-style: normal;
+  font-weight: 500;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 0.3vw 0 0.3vw 0;
+  padding-left: 2vw;
+}
+.line {
+  height: 0.1vw;
+  background-color: black;
+}
+.block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  height: 1.5vw;
+}

@@ -1,0 +1,9 @@
+header {
+  display: flex;
+  gap: 2vw;
+  padding: 1vw 1vw 0 1vw;
+  justify-content: flex-start;
+  font-size: 1.4vw;
+  font-style: normal;
+  font-weight: 500;
+}

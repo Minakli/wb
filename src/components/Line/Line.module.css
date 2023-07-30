@@ -1,0 +1,21 @@
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+  height: 2.6vw;
+  margin: 0.5vw 0 0.5vw 0;
+  background-color: rgb(246, 240, 229);
+}
+.num {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 8vw;
+  font-size: 0.9vw;
+  font-style: normal;
+  font-weight: 500;
+}
