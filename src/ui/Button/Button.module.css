@@ -5,6 +5,10 @@ button {
   border: 0.14vw solid black;
   border-radius: 0.7vw;
   box-shadow: 0 0 2vw rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s;
 }
 button:hover {
+  border: 0.2vw solid black;
+  transform: scale(1.03);
+  transition: transform 0.3s;
 }

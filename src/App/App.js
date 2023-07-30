@@ -11,12 +11,21 @@ import Header from "../components/Header/Header";
 import Main from "../components/Main/Main";
 
 export default function App() {
-  const [btnIsActive, setBtnIsActive] = useState("");
+  const [btnIsActive, setBtnIsActive] = useState("Home");
 
   return (
     <>
-      <Header arrTitle={arrTitle} />
-      <Main arrHello={arrHello} arrSum={arrSum} arrItems={arrItems} />
+      <Header
+        arrTitle={arrTitle}
+        btnIsActive={btnIsActive}
+        setBtnIsActive={setBtnIsActive}
+      />
+      <Main
+        arrHello={arrHello}
+        arrSum={arrSum}
+        arrItems={arrItems}
+        btnIsActive={btnIsActive}
+      />
     </>
   );
 }
