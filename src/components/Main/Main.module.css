@@ -2,12 +2,13 @@ main {
   /* min-height: 30vw; */
   margin: 1vw;
   padding: 1vw;
-  border: 0.14vw solid black;
+  border: 0.14vw solid rgb(100, 100, 100);
   border-radius: 0.7vw;
   box-shadow: 0 0 2vw rgba(0, 0, 0, 0.2);
   font-size: 1.1vw;
   font-style: normal;
   font-weight: 500;
+  transition: transform 0.5s;
 }
 ul {
   display: flex;
@@ -18,7 +19,7 @@ ul {
 }
 .line {
   height: 0.1vw;
-  background-color: black;
+  background-color: rgb(100, 100, 100);
 }
 .block {
   display: flex;

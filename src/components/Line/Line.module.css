@@ -19,3 +19,11 @@
   font-style: normal;
   font-weight: 500;
 }
+.wrapper:hover {
+  /* transform: scale(1.02); */
+  height: 2.32vw;
+  border-top: 0.14vw solid rgb(150, 150, 150);
+  border-bottom: 0.14vw solid rgb(150, 150, 150);
+  transition: transform 0.3s;
+  background-color: rgb(228, 228, 228);
+}
