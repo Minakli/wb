@@ -2,13 +2,13 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 0.14vw solid black;
+  border: 0.14vw solid rgb(100, 100, 100);
   border-radius: 0.7vw;
   box-shadow: 0 0 2vw rgba(0, 0, 0, 0.2);
   transition: transform 0.3s;
 }
 button:hover {
-  border: 0.2vw solid black;
-  transform: scale(1.03);
+  border: 0.2vw solid rgb(100, 100, 100);
+  transform: scale(1.02);
   transition: transform 0.3s;
 }
